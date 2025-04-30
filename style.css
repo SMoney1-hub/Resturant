@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0e0e0e;
+    color: #fff;
+    overflow-x: hidden;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background: transparent;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #ff4d4d;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .login-btn, .lang-toggle {
+    padding: 10px 15px;
+    border: none;
+    background: #1e1e1e;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 5%;
+    flex-wrap: wrap;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+  
+  .hero-content span {
+    color: #ff4d4d;
+  }
+  
+  .hero-content p {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #ccc;
+  }
+  
+  .order-btn {
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    background: #ff4d4d;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .order-btn:hover {
+    background: #e43e3e;
+  }
+  
+  .hero-image {
+    max-width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 30px rgba(255, 77, 77, 0.3);
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 0;
+    background: #111;
+    flex-wrap: wrap;
+  }
+  
+  .category-card {
+    width: 150px;
+    background: #1a1a1a;
+    border-radius: 12px;
+    overflow: hidden;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .category-card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-bottom: 2px solid #333;
+  }
+  
+  .category-card p {
+    margin: 10px 0;
+  }
+  
+  .category-card:hover {
+    transform: scale(1.05);
+    background: #2b2b2b;
+  }
+  
